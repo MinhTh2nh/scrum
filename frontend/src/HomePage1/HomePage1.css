@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap');
+.centent-body{
+    width: 100%;
+
+}
+
+.slider , .item , .item img{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+@media screen and (max-width: 768px){
+  .slider{
+      height: 400px;
+  }
+}
+
+.slogan1 {
+  width: 100%;
+  top: 45%;
+  position: absolute;
+  color: black;
+  font-size: 42px;
+  text-align: center;
+  font-weight: 700;
+  word-wrap: break-word;
+  justify-content: space-around;
+  display: flex;
+}
+.slogan2{
+    width: 100%;
+    top: 52%;
+    position: absolute;
+    color: black    ;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    word-wrap: break-word;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.footer{
+    width: 100%;
+    height: 276px;
+}
+.footer-statistic{
+    width: 100%;
+    height: 276px;
+    margin-top:200px;
+    bottom: 0;
+}
+.footer-content-1{
+    width: 100%;
+    height: 233px;
+    background-color: #495057;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.footer-content-2
+{
+    width: 100%;
+    height: 40px;
+    background-color: #383E45;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-content-11{
+    height: 180px;
+    display: flex;
+    width:100%;
+    
+    justify-content: space-around;
+}
+.footer-content-2 span{
+    margin-left: 82px;
+    color: white;
+}
+.useful-link-list{
+    list-style: none;
+        padding-inline-start: 0;
+    color: #35979C;
+}
+.useful-link span{
+    font-weight: 700;
+}
+.about-us span{
+    font-weight: 700;
+}
+
+.about-us p{
+    width: 646px;
+}
+.Connect-with-us ul{
+    list-style: none;
+    padding-inline-start: 0;
+    color: #35979C;
+    font-size: 16px;
+}
+.Connect-with-us{
+    font-weight: 700;
+}

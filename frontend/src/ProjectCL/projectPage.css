@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap');
+
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    background-color: #D9DEF2;
+    font-weight: bold;
+
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    border-bottom: 1px solid #DDD9D9;
+
+}
+
+.navbar-item {
+    width: fit-content;
+    margin: 0 100px 0 10px;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.white-text {
+    color: black;
+    text-decoration: none;
+}
+
+.user {
+    display: flex;
+    margin-right: 23px;
+}
+
+.user-name {
+    color: black;
+    margin-left: 10px;
+}
+
+.user-img {
+    width: 25px;
+    height: 25px;
+    background-color: #01939A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.centent-body {
+    width: 100%;
+
+}
+
+.form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    gap: 10px
+}
+
+.text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 20px;
+    background-color: white;
+
+}
+
+.listProject,
+.listMyExistingProj {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 276px;
+}
+
+.footer-statistic {
+    width: 100%;
+    height: 276px;
+    margin-top: 200px;
+    bottom: 0;
+}
+
+.footer-content-1 {
+    width: 100%;
+    height: 233px;
+    background-color: #495057;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer-content-2 {
+    width: 100%;
+    height: 40px;
+    background-color: #383E45;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-content-11 {
+    height: 180px;
+    display: flex;
+    width: 100%;
+
+    justify-content: space-around;
+}
+
+.footer-content-2 span {
+    margin-left: 82px;
+    color: white;
+}
+
+.useful-link-list {
+    list-style: none;
+    padding-inline-start: 0;
+    color: #35979C;
+}
+
+.useful-link span {
+    font-weight: 700;
+}
+
+.about-us span {
+    font-weight: 700;
+}
+
+.about-us p {
+    width: 646px;
+}
+
+.Connect-with-us ul {
+    list-style: none;
+    padding-inline-start: 0;
+    color: #35979C;
+    font-size: 16px;
+}
+
+.Connect-with-us {
+    font-weight: 700;
+}
+
+.listMyExistingProj table {
+    width: 100%;
+}
+
+.listMyExistingProj th {
+    text-align: left;
+}
+
+.listMyExistingProj th,
+.listMyExistingProj td {
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Styles for accepted status */
+.status-accepted {
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+/* Styles for waiting status */
+.status-waiting {
+    color: black;
+    background-color: yellow;
+    text-align: center;
+
+}
+
+/* Styles for rejected status */
+.status-rejected {
+    color: red;
+    background-color: white;
+    text-align: center;
+}
+
+.textAlign {
+    width: 30px;
+    height: 30px;
+}
+
+.CreateProject {
+    display: inline-flex;
+    align-items: center;
+}
+
+.listProject,
+.listMyExistingProj {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
+
+.hover-pointer {
+    cursor: pointer;
+}
+
+.textAlign{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.CreateProject{
+    display: inline-flex;
+    align-items: center;
+    }
+.listProject{
+    display: flex;
+}
+
+.button-zone{
+    width: 100%;
+    min-width: 800px;
+    justify-content: space-between;
+    display: flex;
+    color: #D9DEF2 !important;
+    margin-left: 5%;
+}
+.button-zone button   , .button-zone button a{
+    color: white !important;
+}
+.button-zone button{
+    width: 45%;
+    padding: 10px;
+}
+.button-zone button a {
+    width: 100%;
+}
